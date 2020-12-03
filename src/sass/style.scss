@@ -1,0 +1,9 @@
+@import "./global/var.scss";
+@import "./global/reset.scss";
+@import "./global/OOCSS.scss";
+@import "../Components/Pages/Pages/home.scss";
+@import "../Components/Atoms/Burger/burger.scss";
+@font-face {
+    src: url(../assets/font/SourceSansPro-Regular.ttf);
+    font-family: sansPro;
+}
