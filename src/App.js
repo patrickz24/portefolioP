@@ -1,11 +1,15 @@
+import React  from "react";
+import Nav from "./Components/Molecules/Nav/Nav";
+
 import "./sass/style.scss";
 
 
 
 function App() {
   return (
-<div>Hello world !</div>
+ 
+<Nav/>
   );
 }
 
-export default App;
+export default App
