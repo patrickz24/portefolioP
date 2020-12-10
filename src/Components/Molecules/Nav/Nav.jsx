@@ -1,17 +1,26 @@
 import React from 'react';
-import ButtonNav from '../../Atoms/ButtonNav/ButtonNav';
-import {BrowserRouter as Router} from "react-router-dom";
+// import ButtonNav from './../../Atoms/ButtonNav/ButtonNav';
+import Liens from './../Liens/Liens';
+// import {BrowserRouter as Router} from "react-router-dom";
 
- const Nav = ()=> {
-    return (     
+export default function Nav () {
+    return (    
    
-        <ButtonNav/>       
+       <> 
+      {/* <div className="navigation"> */}
+         {/* <ButtonNav/>  */}
+       <Liens/> 
+       {/* </div> */}
+       </>
+        
+      
+            
        
          
        
     );
 }
-export default Nav();
+
 
 
 

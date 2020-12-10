@@ -1,0 +1,18 @@
+.lien {
+    display: flex;
+    justify-content: center;
+    @include media(tablet) {
+        width: 25vw;
+    }
+    &__logo {
+        // background-color: white;
+        // margin-left: 2%;
+        // margin-top: 5%;
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap; // align-items: center;
+        img {
+            width: 40%;
+        }
+    }
+}

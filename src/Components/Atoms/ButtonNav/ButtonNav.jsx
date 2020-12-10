@@ -1,33 +1,37 @@
-import React, {Link} from 'react';
+import React from 'react';
+// import {Link} from 'react';
 
- const ButtonNav = ()=> {
+ export default function ButtonNav (){
     return (
         <div> 
             <nav className="nav">
-        <div className="navadmin__logo media_tablet_desktop">
-          <Link to="/">
-            <img src= {`${process.env.PUBLIC_URL}/logo232.svg`}  alt="logo" />
-          </Link>
+        <div className="nav__logo ">
+          {/* <Link to="/"> */}
+            <img src= {`${process.env.PUBLIC_URL}/logo132.jpeg`}  alt="logo" />
+          {/* </Link> */}
         </div>
-        <div className="navadmin__buttons media_tablet_desktop">
-          <div className="navadmin__buttons__test">
-            <Link to="/about">
-              <h3>ABOUT ME</h3>
-            </Link>
+        <h3>PATRICK ZAMBLE-BI</h3>
+        <div className="nav__buttons">
+          <div className="nav__buttons__test">
+            {/* <Link to="/about"> */}
+              <h3>ABOUT</h3>
+            {/* </Link> */}
           </div>
      
             
-          <div className="navadmin__buttons__test">
-            <Link   to="/projects">
+          <div className="nav__buttons__test">
+            {/* <Link   to="/projects"> */}
               <h3>PROJECTS</h3>
-            </Link>
+            {/* </Link> */}
           </div>
-          <div className="navadmin__buttons__test">
-            <Link   to="/contact">
+          <div className="nav__buttons__test">
+          {/* <Link   to="/contact"> */}
               <h3>CONTACT</h3>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
-      </nav></div>
-    )
-    };  export default ButtonNav();
+      </nav>
+      
+    </div>
+    );
+    } 

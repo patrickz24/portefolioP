@@ -1,9 +1,12 @@
 @import "./global/var.scss";
-@import "./global/reset.scss";
+@import "./global/mixin.scss";
 @import "./global/OOCSS.scss";
 @import "../Components/Pages/Pages/home.scss";
+@import "../Components/Molecules/Nav/nav.scss";
+@import"../Components/Molecules/Liens/liens.scss";
+@import "../Components/Atoms/ButtonNav/buttonNav.scss";
 @import "../Components/Atoms/Burger/burger.scss";
 @font-face {
     src: url(../assets/font/SourceSansPro-Regular.ttf);
-    font-family: sansPro;
+    font-family: 'Lucida Sans', sans-serif;
 }

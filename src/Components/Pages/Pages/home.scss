@@ -1,0 +1,31 @@
+.home {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-img {
+        img {
+            border-radius: 200px;
+        }
+    }
+    &-description {
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            margin-top: -5%;
+            margin-bottom: 35%;
+            font-size: 45px;
+            font-weight: 450;
+            color: $colorhover;
+            font-family: 'Lucida Sans', sans-serif;
+        }
+        h1 {
+            color: #F2FFF8;
+            font-size: 70px;
+            font-weight: 450;
+            font-family: 'Lucida Sans', sans-serif;
+        }
+    }
+}
