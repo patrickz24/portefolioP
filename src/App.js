@@ -9,7 +9,10 @@ import "./sass/style.scss";
 
 export default function App() {
   return (
- <Router><Nav/><Routes/></Router>
+<Router>
+   <Nav/>
+   <Routes/>
+</Router>
 
   );
 }

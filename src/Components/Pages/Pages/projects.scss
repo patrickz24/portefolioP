@@ -1,0 +1,20 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3 {
+        margin-top: 7%;
+        color: $colorh1;
+        font-size: 50px;
+        font-weight: 400;
+        font-family: 'Lucida Sans', sans-serif;
+        text-align: center;
+    }
+    &-carousel {
+        align-items: center;
+        background-color: white;
+        height: 50vh;
+        width: 85%;
+    }
+}

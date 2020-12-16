@@ -1,58 +1,54 @@
-@import '../../../sass/global/mixin.scss';
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @include media(tablet) {
-        width: 75vw;
-        display: flex;
-        justify-content: space-between;
-        height: 4vh;
-    }
-    h3 {
-        font-size: 30px;
-        font-weight: 450;
-        margin-left: -25%;
-        color: $colorh1;
-        font-family: 'Lucida Sans', sans-serif;
-    }
-    &__logo {
-        margin-left: 2%;
-        width: 15%;
-        display: flex;
-        align-items: center;
-        img {
-            border-radius: 50%;
-            width: 20%;
-        }
-    }
-    &__buttons {
-        width: 60%;
-        div {
-            width: 15%;
-            border: none;
-            float: left;
-            margin: 0% -40% 0% 45%;
-        }
-        h3 {
-            font-weight: 450;
-            font-size: 20px;
-            text-align: bottom;
-            @include media(desktop) {
-                font-size: 20px;
-            }
-            &:hover {
-                color: $colorhover;
-                cursor: pointer;
-            }
-        }
-    }
-    .media_smartphone {
-        @include media(tablet) {
-            display: none;
-        }
-        @include media(desktop) {
-            display: none;
-        }
-    }
-}
+                @import '../../../sass/global/mixin.scss';
+                .nav {
+                    display: none;
+                    @include media(tablet) {
+                        width: 75vw;
+                        display: flex;
+                        justify-content: space-between;
+                        height: 4vh;
+                        h3 {
+                            font-size: 30px;
+                            font-weight: 450;
+                            margin-top: 0%;
+                            margin-left: -25%;
+                            color: $colorh1;
+                            font-family: 'Lucida Sans', sans-serif;
+                        }
+                        &__logo {
+                            margin-left: 2%;
+                            width: 15%;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                border-radius: 50%;
+                                width: 20%;
+                            }
+                        }
+                        &__buttons {
+                            width: 60%;
+                            div {
+                                width: 15%;
+                                border: none;
+                                float: left;
+                                margin: 3% -40% 0% 50%;
+                            }
+                            h3 {
+                                font-weight: 450;
+                                font-size: 20px;
+                                text-align: bottom;
+                                &:hover {
+                                    color: $colorhover;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    .media_smartphone {
+                        @include media(tablet) {
+                            display: none;
+                        }
+                        @include media(desktop) {
+                            display: none;
+                        }
+                    }
+                }

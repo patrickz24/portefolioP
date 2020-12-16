@@ -10,6 +10,7 @@ export default function Home() {
                 <h1>DEVELOPPEUR WEB</h1>
                 <h2>Full-stack</h2>
             </div>
+    
         </div>
     )
 }
